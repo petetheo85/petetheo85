@@ -1,72 +1,73 @@
 # Peter Theodoracopoulos
 
-**Applied AI & Automation Practitioner**
+**Applied AI & Data Automation | Python, APIs, RAG & LLM Systems**
 
-I build and experiment with AI-assisted workflows, Python automation, data pipelines, RAG systems, guardrails, and LLM evaluation.
+I build Python automation, data pipelines, retrieval systems, and AI-enabled applications with an emphasis on structured outputs, validation, evaluation, and reliable system behavior.
 
-I'm completing a 20-year career in the U.S. Navy while transitioning into applied AI and software engineering. I hold an M.S. in Computer Science (Artificial Intelligence) from Georgia Tech and an active TS/SCI clearance.
+I'm completing a 20-year career in the U.S. Navy while transitioning into software, data, and applied AI engineering. I hold an M.S. in Computer Science (Artificial Intelligence) from Georgia Tech and an active TS/SCI clearance.
 
-My interests are less about training foundation models and more about building the systems around them: orchestration, retrieval, tool use, validation, structured outputs, automation, and the deterministic software needed to make probabilistic models more useful.
+My professional work includes Python automation used in daily recruiting operations to collect, process, validate, and structure clinician data from APIs, websites, and unstructured documents. My public projects explore the engineering around LLMs: retrieval, orchestration, tool use, evaluation, persistence, testing, deployment, and human-in-the-loop workflows.
 
 ## Featured Projects
 
-### POLQUAD
-
-Multi-agent research framework for political-bias reduction.
-
-Four ideologically grounded agents independently rewrite the same input from different perspectives. A judge agent synthesizes the results, and an evaluation loop iteratively refines the output against a defined bias threshold.
-
-**Focus:** multi-agent orchestration, evaluation loops, prompt and system design, guardrails, and comparative LLM evaluation.
-
-[View POLQUAD](https://github.com/petetheo85/polquad)
-
 ### Navy RAG
 
-Experimental RAG and agentic retrieval system for querying Navy recruiting instructions.
+Deployed retrieval system for U.S. Navy recruiting policy and personnel directives.
 
-The project explores document ingestion, retrieval, query reformulation, citation validation, and tool-calling workflows.
+Built with LangGraph, Gemini, ChromaDB, FastAPI, Docker, and Google Cloud Run. The system uses hybrid dense + BM25 retrieval, weighted Reciprocal Rank Fusion, scope guardrails, deterministic page-level citations, and automated policy synchronization.
 
-**Focus:** RAG, LangGraph, retrieval validation, document processing, MCP, and Python backend development.
+A 50-query retrieval benchmark improved Recall@3 from **86% to 100%** and MRR from **0.860 to 0.933**.
 
-[View Navy RAG](https://github.com/petetheo85/navy-rag)
+**Focus:** RAG, hybrid retrieval, evaluation, LangGraph, document processing, automated ingestion, Docker, GCP, and CI/CD.
 
-### Solvera Longevity OS
+[View Navy RAG](https://github.com/petetheo85/navy-rag) | [Live Demo](https://navy-rag-676509381448.us-central1.run.app)
 
-Full-stack health analytics prototype combining deterministic biological-age calculations, structured biomarker processing, protocol matching, and optional LLM-assisted summaries.
+### Pollinate
 
-**Focus:** TypeScript, Next.js, deterministic business logic, structured data, LLM integration, and full-stack application design.
+Local-first, human-in-the-loop AI workflow for drafting grounded responses to LinkedIn posts.
 
-[View Solvera](https://github.com/Solvera-Longevity/longevity-os)
+Pollinate combines a Chrome Side Panel extension with a FastAPI backend, Gemini structured outputs, SQLite persistence, and a Streamlit dashboard for interaction history and relationship tracking. Browser-to-backend communication is token authenticated, and final posting remains intentionally manual.
 
-## What I'm Working Toward
+**Focus:** Python, FastAPI, LLM integration, structured outputs, SQLite, browser extensions, testing, authentication, and human-in-the-loop application design.
 
-I'm interested in applied AI, AI automation, and software engineering roles where I can deepen my experience building, testing, deploying, and operating reliable AI-enabled systems.
+[View Pollinate](https://github.com/petetheo85/pollinate)
 
-My current work is primarily research, prototype, and automation work rather than production AI engineering. I'm particularly interested in learning the production side: testing, observability, deployment, reliability, security, and operating software for real users.
+### POLQUAD
 
-## Background
+Multi-agent research framework for political bias reduction.
 
-Before moving toward software and AI, my Navy career included aircraft avionics, technical supervision, recruiting operations, and leadership of distributed teams.
+Four ideologically grounded agents independently analyze and rewrite the same input from different perspectives. A judge agent synthesizes the results, and an evaluation loop iteratively refines the output against a defined bias threshold.
+
+The framework was evaluated across Gemini, GPT, and Claude model families and is the subject of my first-author paper accepted for publication in the *Journal of Information Security*.
+
+**Focus:** multi-agent orchestration, evaluation loops, prompt and system design, comparative LLM evaluation, and failure analysis.
+
+[View POLQUAD](https://github.com/petetheo85/polquad) | [Paper](https://www.scirp.org/journal/paperinformation?paperid=154876)
+
+## What I'm Working On
+
+I'm focused on the engineering around AI systems rather than foundation-model training:
+
+- Python automation and data workflows
+- Retrieval-augmented generation and hybrid search
+- LLM orchestration and structured outputs
+- Evaluation, guardrails, and validation
+- API integration and document processing
+- Testing, CI/CD, containerization, and cloud deployment
+- Reliable interaction between deterministic software and probabilistic models
+
+I'm early in my professional software and AI engineering career, but not early in solving operational problems. My Navy background spans aircraft avionics, technical supervision, recruiting operations, and leadership of distributed teams.
 
 That experience shaped how I approach engineering problems: understand the system, isolate failures, validate the result, document the work, and don't confuse **"it ran once"** with **"it works reliably."**
 
-## Current Focus
-
-- Python automation and data workflows
-- Agentic workflows and guardrails
-- Retrieval-augmented generation (RAG)
-- LLM evaluation and structured outputs
-- API integration and web data extraction
-- Software reliability and validation
-
 ## Availability
 
-I retire from the U.S. Navy on June 30, 2027 and am available for civilian employment beginning July 1, 2027. I can be available as early as March 2, 2027 through an approved SkillBridge opportunity. If your company does not have an established Skillbridge program, you may be able to hire me as an intern through [Hiring Our Heroes](https://www.hiringourheroes.org/employers/hosting-a-fellow/).
+I retire from the U.S. Navy on June 30, 2027 and am available for civilian employment beginning July 1, 2027.
+
+I may be available as early as March 2, 2027 through an approved SkillBridge opportunity with Hiring Our Heroes.
 
 ## Connect
 
 - [LinkedIn](https://www.linkedin.com/in/petetheo)
-
-
 
 > All views expressed are my own and do not represent the Department of Defense or Department of the Navy.
